@@ -1,0 +1,107 @@
+@import '~antd/lib/style/themes/default.less';
+
+.lnglist {
+  display: flex;
+  margin: 5px;
+  line-height: 35px;
+  background: rgba(255, 255, 255, 0.15);
+
+  div {
+    width: 20px;
+    text-align: center;
+    cursor: pointer;
+  }
+}
+
+.form {
+  :global {
+    .ant-form-item-control-input .ant-select-selector {
+      min-height: 34px;
+    }
+    .ant-input-number-input {
+      width: 250px !important;
+    }
+    .ant-select-selector {
+      display: flex;
+      align-items: center;
+      justify-self: center;
+    }
+    .ant-input {
+      color: white !important;
+      background-color: #020a33 !important;
+      background-color: rgb(40 47 81) !important;
+      border: 1px solid #979191;
+    }
+
+    .ant-table,
+    .ant-table-thead > tr > th {
+      background: #020a33 !important;
+    }
+
+    td,
+    .ant-table-thead > tr > th {
+      border: none !important;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.15) !important;
+    }
+
+    tr:hover > td {
+      background: rgba(255, 255, 255, 0.15) !important;
+    }
+
+    .ant-spin-container .ant-table-tbody .ant-table-cell,
+    .ant-spin-container .ant-table-thead .ant-table-cell {
+      color: white !important;
+    }
+
+    .ant-btn {
+      width: auto !important;
+    }
+
+    .ant-input-number {
+      width: 500px;
+      border-color: #979191 !important;
+    }
+
+    .ant-radio-wrapper {
+      color: white;
+      line-height: 40px;
+    }
+
+    .ant-form-item-control-input-content {
+      height: auto !important;
+    }
+  }
+
+  table {
+    margin: 10px 0;
+  }
+
+  td {
+    padding: 5px;
+    line-height: 30px;
+    border: 1px solid white;
+  }
+
+  .formitem {
+    line-height: 40px;
+  }
+
+  .uploadstyle {
+    padding: 10px;
+
+    > div {
+      margin: 10px;
+    }
+
+    :global {
+      .ant-form-item-control-input-content {
+        justify-content: center;
+      }
+    }
+  }
+
+  .save {
+    display: flex;
+    justify-content: center;
+  }
+}

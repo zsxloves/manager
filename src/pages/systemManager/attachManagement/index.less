@@ -1,0 +1,54 @@
+@import '~antd/lib/style/themes/default.less';
+
+.overall {
+  height: 100%;
+  margin: 0 !important;
+  .colSty {
+    height: 100%;
+    background-color: #fff;
+  }
+  .leftOrganize {
+    height: 100%;
+    padding: 20px 0 0 20px;
+    overflow: auto;
+    background-color: #fff;
+    border-right: 1px solid #efefef;
+  }
+  .rightOrganize {
+    height: 100%;
+    margin-left: 24px;
+    background-color: #fff;
+    .poRight {
+      position: absolute;
+      top: 9px;
+      right: 0;
+    }
+    .tables {
+      :global {
+        .ant-row-start > .ant-col {
+          padding: 0 !important;
+        }
+        .ant-form-item-label {
+          flex: none !important;
+        }
+      }
+    }
+    :global {
+      .ant-pro-table-search {
+        margin: 0;
+        padding: 0 !important;
+        padding-right: 20px !important;
+      }
+      .ant-btn-primary {
+        float: right;
+      }
+      .ant-row {
+        padding: 10px 20px 0 0;
+      }
+
+      .ant-card-body {
+        padding-left: 0 !important;
+      }
+    }
+  }
+}

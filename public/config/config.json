@@ -1,0 +1,72 @@
+﻿{
+  "map3d": {
+    "scene": {
+      "center": { 
+      "lat": 30.2349677, "lng": 120.2288892, "alt": 35, "heading": 0, "pitch": -45 },
+      "scene3DOnly": false,
+      "shadows": false,
+      "removeDblClick": true,
+      "sceneMode": 3,
+      "showSun": true,
+      "showMoon": true,
+      "showSkyBox": true,
+      "showSkyAtmosphere": true,
+      "fog": true,
+      "fxaa": true,
+      "globe": {
+        "depthTestAgainstTerrain": false,
+        "baseColor": "#546a53",
+        "showGroundAtmosphere": true,
+        "enableLighting": false
+      },
+      "cameraController": {
+        "zoomFactor": 3.0,
+        "minimumZoomDistance": 1,
+        "maximumZoomDistance": 50000000,
+        "enableRotate": true,
+        "enableTranslate": true,
+        "enableTilt": true,
+        "enableZoom": true,
+        "enableCollisionDetection": true,
+        "minimumCollisionTerrainHeight": 15000
+      }
+    },
+    "control": {
+      "homeButton": false,
+      "baseLayerPicker": false,
+      "sceneModePicker": false,
+      "vrButton": false,
+      "fullscreenButton": false,
+      "navigationHelpButton": false,
+      "animation": false,
+      "timeline": false,
+      "infoBox": false,
+      "geocoder": false,
+      "geocoderConfig": { "key": ["ae29a37307840c7ae4a785ac905927e0"] },
+      "selectionIndicator":false,
+
+      "defaultContextMenu": true,
+      "mouseDownView": true,
+      "compass": { "bottom": "240px", "right": "2px" },
+      "distanceLegend": { "left": "100px", "bottom": "0px" },
+      "locationBar": {
+        "fps": true,
+        "template": "<div style='background:rgba(0,0,0,0.3)'>经度:{lng}</div> <div>纬度:{lat}</div><div>海拔：{alt}米</div> <div>层级：{level}</div><div>方向：{heading}度</div> <div>俯仰角：{pitch}度</div><div>视高：{cameraHeight}米</div>"
+      }
+    },
+    "terrain": {
+      "url": "//data.mars3d.cn/terrain",
+      "show": false
+    },
+    "basemaps": [
+      {
+          "name": "卫星影像(亚运)",
+          "icon": "",
+          "type": "xyz",
+          "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+          "maximumLevel": 18,
+          "show": true
+      }
+    ]
+  }
+}

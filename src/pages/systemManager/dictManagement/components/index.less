@@ -1,0 +1,22 @@
+@import '~antd/lib/style/themes/default.less';
+
+.dictSub {
+  :global {
+    .ant-modal-content .ant-modal-body .ant-pro-table .ant-card > div {
+      padding: 0;
+    }
+    .ant-modal-content .ant-modal-footer {
+      display: flex;
+      justify-content: center;
+    }
+    .ant-modal-content .ant-modal-footer > button:first-child {
+      display: none;
+    }
+    .ant-spin-container {
+      height: 84%;
+      .ant-pagination {
+        position: relative;
+      }
+    }
+  }
+}

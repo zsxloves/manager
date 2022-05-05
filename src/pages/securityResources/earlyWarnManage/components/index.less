@@ -1,0 +1,51 @@
+@import '~antd/es/style/themes/default.less';
+
+.layout {
+  margin-top: 16px;
+  :global {
+    .ant-descriptions-row > th,
+    .ant-descriptions-row > td {
+      padding-bottom: 30px;
+    }
+  }
+}
+.height440 {
+  :global {
+    .ant-pro-table-search {
+      margin-bottom: 20px;
+      padding-left: 0;
+    }
+  }
+  .tableStyle {
+    :global {
+      .ant-pro-table-search {
+        padding-top: 0;
+      }
+      .ant-row-start {
+        height: 40px;
+        .ant-col-5 {
+          min-width: 33% !important;
+          height: 100% !important;
+          .ant-form-item {
+            height: 95%;
+            .ant-form-item-label,
+            .ant-form-item-label > label,
+            .ant-form-item-control,
+            .ant-form-item-control-input,
+            .ant-input-affix-wrapper,
+            .ant-space,
+            .ant-space-item {
+              height: 100%;
+            }
+            .ant-input-affix-wrapper input {
+              height: 30px;
+            }
+            .ant-space-item .ant-btn {
+              height: 40px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

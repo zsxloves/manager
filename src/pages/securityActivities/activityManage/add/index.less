@@ -1,0 +1,56 @@
+@import '~antd/es/style/themes/default.less';
+.PageContainer {
+  padding: 24px;
+  background-color: #fff;
+  :global {
+    .ant-pro-grid-content {
+      overflow: auto;
+      .ant-form {
+        margin-bottom: 50px;
+      }
+    }
+    .ant-upload-picture-card-wrapper {
+      margin: 10px 0;
+    }
+    .ant-space-align-center {
+      justify-content: center;
+      width: 100%;
+    }
+    .ant-pro-form-group-title {
+      margin-left: 35px;
+      font-size: 20px;
+    }
+  }
+  .headerText {
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .textareaLabelWidth {
+    :global {
+      .ant-form-item-label {
+        max-width: 7.6%;
+      }
+      .ant-form-item-control {
+        width: 92.4%;
+        max-width: 92.4%;
+      }
+    }
+  }
+  .tipInfo {
+    position: absolute;
+    bottom: 3px;
+    left: 17%;
+    color: #ff9e00;
+    font-size: 14px;
+  }
+}
+
+.layout {
+  margin-top: 16px;
+  :global {
+    .ant-descriptions-row > th,
+    .ant-descriptions-row > td {
+      padding-bottom: 30px;
+    }
+  }
+}

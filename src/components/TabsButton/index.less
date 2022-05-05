@@ -1,0 +1,24 @@
+.Tabs {
+  :global {
+    .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+      color: rgb(66 107 255) !important;
+      background: rgba(66, 107, 255, 0.1);
+      border-color: rgb(66 107 255);
+      // background: linear-gradient(90deg, #6676f2 0%, #8876f8 100%);
+    }
+    .ant-radio-button-wrapper {
+      min-width: 95px !important;
+      font-size: 15px;
+      text-align: center;
+    }
+    .ant-radio-button-wrapper:focus-within {
+      box-shadow: none !important;
+    }
+    .ant-radio-button-wrapper:first-child {
+      border-radius: 6px 0 0 6px !important;
+    }
+    .ant-radio-button-wrapper:last-child {
+      border-radius: 0 6px 6px 0 !important;
+    }
+  }
+}

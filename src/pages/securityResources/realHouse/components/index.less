@@ -1,0 +1,45 @@
+.formTable {
+  overflow-y: auto;
+}
+.md {
+  :global {
+    .ant-pro-table-search .ant-form-item-label {
+      flex: none !important;
+    }
+    .ant-pro-table-search .ant-form-item-control {
+      max-width: none !important;
+    }
+  }
+  .tableStyle {
+    :global {
+      .ant-pro-table-search {
+        padding-top: 0;
+      }
+      .ant-row-start {
+        height: 40px;
+        .ant-col-5 {
+          min-width: 40% !important;
+          height: 100% !important;
+          .ant-form-item {
+            height: 95%;
+            .ant-form-item-label,
+            .ant-form-item-label > label,
+            .ant-form-item-control,
+            .ant-form-item-control-input,
+            .ant-input-affix-wrapper,
+            .ant-space,
+            .ant-space-item {
+              height: 100%;
+            }
+            .ant-input-affix-wrapper input {
+              height: 30px;
+            }
+            .ant-space-item .ant-btn {
+              height: 40px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

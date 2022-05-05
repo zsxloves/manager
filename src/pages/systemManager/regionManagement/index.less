@@ -1,0 +1,76 @@
+@import '~antd/lib/style/themes/default.less';
+
+.overall {
+  // :global {
+  //   .ant-col {
+  //     margin-left: 24px;
+  //   }
+  // }
+  height: 100%;
+  margin: 0 !important;
+  .colSty {
+    height: 100%;
+    background-color: #fff;
+  }
+  .leftOrganize {
+    height: 100%;
+    padding: 20px 0 0 20px;
+    overflow: auto;
+    background-color: #fff;
+    border-right: 1px solid #efefef;
+    // margin-left: 24px;
+  }
+  .rightOrganize {
+    height: 100%;
+    margin-left: 20px;
+    background-color: #fff;
+    .rightTop {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+    .tables {
+      :global {
+        .ant-row-start > .ant-col {
+          padding: 0 !important;
+        }
+        .ant-form-item-label {
+          flex: none !important;
+        }
+      }
+    }
+    :global {
+      .ant-pro-table-search {
+        margin: 0 !important;
+        padding-left: 0 !important;
+      }
+      // .ant-pro-table {
+      //   height: calc(100% - 92px) !important;
+      // }
+      .ant-card-body {
+        padding-left: 0 !important;
+      }
+    }
+  }
+}
+
+.treeItem {
+  .treeBtnBox {
+    float: right;
+    margin-left: 10px;
+    visibility: hidden;
+  }
+  &:hover {
+    .treeBtnBox {
+      visibility: inherit;
+    }
+  }
+}
+
+.formStyle {
+  :global {
+    .ant-input-textarea {
+      width: 100%;
+    }
+  }
+}

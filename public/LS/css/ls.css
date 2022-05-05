@@ -1,0 +1,299 @@
+.safetyinfo {
+    position: absolute;
+    top: auto;
+    transform: translateY(calc(-100% + -5px)); 
+    left: -85px;
+    background-color: rgb(2 9 51 / 90%);
+    padding: 0px;
+    color: #fff;
+    /* width: 490px; */
+    border: 1px solid #00c1ff;
+    border-right: none;
+    border-left: none;
+    text-shadow: 0px 1px 4px #000;
+    color: #fff;
+    -webkit-user-select:none ;
+    -moz-user-select:none;
+}
+.safetyinfo .info_close {
+    position: absolute;
+    right: -40px;
+    top: -1px;
+    z-index: 9;
+    color: #fff;
+    font-size: 15px;
+    background-color: #00c1ff;
+    padding: 6px 6px;
+    cursor: pointer;
+}
+.safetyinfo .info_close:before{
+    content: '';
+    border-width: 11px 10px 11px 11px;
+    border-style: solid;
+    border-color: #00c1ff transparent transparent #00c1ff;
+    position: absolute;
+    top: 31px;
+    left: 0px;
+}
+.safetyinfo .info_content {
+    line-height: 25px;
+    letter-spacing: 1px;
+    padding: 10px 5px;
+       position: relative;
+       font-size: 15px;
+    margin-bottom: 5px;
+    max-height: 601px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+    .safetyinfo .top_block {
+    position: absolute;
+    top: -16px;
+    right: -20px;
+    background-color: #00c1ff;
+    width: 50px;
+    height: 12px;
+    text-align: center;
+    border: 1px solid #00c1ff;
+    border-right: none;
+    border-top: none;
+}
+.safetyinfo .top_block:before {
+    content: '';
+    border-width: 6px 6px 6px 6px;
+    border-style: solid;
+    border-color: transparent #00c1ff #00c1ff transparent;
+    position: absolute;
+    right: 50px;
+}
+.safetyinfo .top_line {
+    position: absolute;
+    top: -5px;
+    left: 0px;
+    width: 100%;
+    height: 1px;
+    background-color: #00c1ff;
+}
+.safetyinfo .left_block {
+       position: absolute;
+    left: -34px;
+    top: 30px;
+    background-color: #00c1ff;
+    width: 8px;
+    height: 30%;
+    text-align: center;
+    border: 1px solid #00c1ff;
+    border-right: none;
+    border-top: none;
+}
+.safetyinfo .left_block:before {
+    content: '';
+    border-width: 5px 5px 5px 5px;
+    border-style: solid;
+    border-color: transparent #00c1ff #00c1ff transparent;
+    position: absolute;
+    top: -9px;
+    left: -1px;
+}
+.safetyinfo .left_line {
+    position: absolute;
+    top: 24px;
+    left: -25px;
+    width: 1px;
+    height: calc(100% - 12px);
+    background-color: #00c1ff;
+}
+.safetyinfo .info_bottom {
+    position: absolute;
+    bottom: -12px;
+    left: -20px;
+    background-color: #00c1ff;
+    width: calc(100% + 10px);
+    height: 10px;
+    text-align: center;
+    border: 1px solid #00c1ff;
+    border-right: none;
+    border-top: none;
+}
+.safetyinfo .info_bottom:before {
+    content: '';
+    border-width: 6px 6px 6px 6px;
+    border-style: solid;
+    border-color: #00c1ff transparent transparent #00c1ff;
+    position: absolute;
+    right: -10px;
+}
+.safetyinfo .bottom_one,
+.safetyinfo .bottom_two,
+.safetyinfo .bottom_three,
+.safetyinfo .bottom_four {
+    position: absolute;
+    bottom: -6px;
+    background-color: #b5c1ff;
+    width: 20px;
+    height: 6px;
+    transform: skewX(-35deg);
+}
+.safetyinfo .bottom_one {
+    left: 0px;
+}
+.safetyinfo .bottom_two {
+    left: 30px;
+}
+.safetyinfo .bottom_three {
+    left: 60px;
+}
+.safetyinfo .bottom_four {
+    left: 90px;
+}
+.safetyinfo .info_left {
+    position: absolute;
+    bottom: -1px;
+    left: -19px;
+    background-color: rgb(2 9 51 / 90%);
+    width: 19px;
+    height: calc(100% - 19px);
+    text-align: center;
+    border: 1px solid #00c1ff;
+    border-right: none;
+    border-top: none;
+}
+.safetyinfo .info_left:before {
+    content: '';
+    border-width: 10px 10px 10px 10px;
+    border-style: solid;
+    border-color: transparent rgb(2 9 51 / 90%) rgb(2 9 51 / 90%) transparent;
+    position: absolute;
+    top: -20px;
+    right: 0px;
+}
+.safetyinfo .info_left_line {
+    position: absolute;
+    top: -5px;
+    left: -10px;
+    width: 1px;
+    height: 29px;
+    background-color: #00c1ff;
+    transform: rotate(45deg);
+}
+.safetyinfo .info_right {
+    position: absolute;
+    top: -1px;
+    right: -19px;
+    background-color: rgb(2 9 51 / 90%);
+    width: 19px;
+    height: calc(100% - 19px);
+    text-align: center;
+    border: 1px solid #00c1ff;
+    border-left: none;
+    border-bottom: none;
+}
+.safetyinfo .info_right:before {
+    content: '';
+    border-width: 10px 10px 10px 10px;
+    border-style: solid;
+    border-color: rgb(2 9 51 / 90%) transparent transparent rgb(2 9 51 / 90%);
+    position: absolute;
+    bottom: -20px;
+    left: 0px;
+}
+.safetyinfo .info_right_line {
+    position: absolute;
+    bottom: -5px;
+    right: -10px;
+    width: 1px;
+    height: 29px;
+    background-color: #00c1ff;
+    transform: rotate(45deg);
+}
+
+
+
+.safetyinfo  .info_key{
+    padding: 0px 0px;
+    font-size: 15px;
+}
+.safetyinfo  .info_value {
+    margin-left: 5px;
+    color: #ffff00;
+}
+.safetyinfo  .talkBtn {
+    background-color: #03A9F4;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline;
+    padding: 1px 5px;
+    margin-left: 3px;
+    font-size: 12px;
+}
+.safetyinfo  .videoBtn {
+    background-color: #03A9F4;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline;
+    padding: 1px 5px;
+    margin-left: 3px;
+    font-size: 12px;
+}
+.safetyinfo .sendBtn {
+    background-color: #4CAF50;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline;
+    padding: 1px 5px;
+    font-size: 12px;
+    margin-left: 5px;
+}
+.safetyinfo .left-box{
+    width: 255px;
+}
+.safetyinfo .right-box{
+    width: 225px;
+    height: 237px;
+    padding: 5px;
+}
+.safetyinfo .title{
+    display: inline-block;
+    background: rgb(0 193 255 / 0.4);
+    padding: 0px 10px;
+    letter-spacing: 2px;
+}
+.safetyinfo .monitorBox{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    display: -webkit-flex;
+    height: calc(100% - 15px - 10px);
+    border: 1px solid rgb(255 255 255 / 0.2);
+    width: calc(100%);
+    margin-top: 10px;
+}
+.safetyinfo video{
+    width: 100%;
+    height: auto;
+}
+.safetyinfo .monitorBox .adding{
+
+}
+.ryhcTable{
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+    padding: 10px;
+    background: rgba(2,9,51,0.6);
+    align-items: center;
+}
+.ryhcTable .left{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+.ryhcTable .left img{
+    width: 100px;
+    height: 100px;
+}
+.ryhcTable .right{
+    width: 100px;
+    margin-right: 10px;
+    width: 300px;
+}

@@ -1,0 +1,276 @@
+@import '~antd/lib/style/themes/default.less';
+
+.stateIcon {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 6px;
+  border-radius: 5px;
+}
+.modal {
+  :global {
+    .ant-drawer-mask {
+      background-color: rgba(0, 0, 0, 0.45) !important;
+    }
+    .ant-drawer-body {
+      margin-bottom: 32px;
+    }
+    @media screen and (max-width: 1366px) {
+      .ant-drawer-mask {
+        left: -920px !important;
+        width: 1920px !important;
+      }
+    }
+  }
+  .title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+    div {
+      display: inline-block;
+      width: 4px;
+      height: 22px;
+      background: linear-gradient(180deg, #6676f2 0%, #8876f8 100%);
+    }
+    span {
+      margin-left: 5px;
+      color: #303030;
+      font-weight: 600;
+      font-size: 14px;
+    }
+  }
+  .content {
+    & > div {
+      display: flex;
+      margin-bottom: 18px;
+      & > div {
+        display: flex;
+        width: 50%;
+      }
+    }
+    .conTitle {
+      display: inline-block;
+      width: 112px;
+      height: 22px;
+      color: #666;
+      font-size: 14px;
+      line-height: 22px;
+      text-align: right;
+    }
+    .conTxt {
+      display: inline-block;
+      flex: 1;
+      height: 22px;
+      margin-left: 16px;
+      overflow: hidden;
+      color: #000;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 22px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+    .conTxt2 {
+      display: inline-block;
+      flex: 1;
+      margin-left: 16px;
+      color: #000;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 22px;
+    }
+  }
+  .card {
+    display: flex;
+    align-items: center;
+    width: 260px;
+    height: 60px;
+    padding: 12px;
+    background: #f7f8fa;
+    border-radius: 4px;
+    .cardImg {
+      width: 32px;
+      height: 32px;
+      margin-right: 8px;
+      background: chocolate;
+    }
+  }
+  .cardMain {
+    flex: 1;
+    overflow: hidden;
+    div {
+      width: 100%;
+      height: 22px;
+      overflow: hidden;
+      font-size: 14px;
+      line-height: 22px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+    .cardName {
+      color: #303030;
+      font-weight: 600;
+    }
+    .cardMob {
+      color: #838383;
+    }
+  }
+  .card2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 260px;
+    height: 90px;
+    padding: 12px;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .card2:hover {
+    border: 2px solid #6676f2;
+  }
+  .mapStyle {
+    max-width: 1112px;
+    height: 212px;
+    margin-top: 25px;
+  }
+}
+.modelSel {
+  :global {
+    .ant-input-affix-wrapper {
+      height: 32px !important;
+      line-height: 32px !important;
+      .ant-input {
+        height: 24px !important;
+        line-height: 24px !important;
+      }
+    }
+    .ant-input {
+      height: 32px !important;
+      min-height: 24px !important;
+      line-height: 32px !important;
+    }
+    .ant-modal-body .ant-form-item-control-input .ant-input-affix-wrapper .ant-input {
+      height: 24px !important;
+      line-height: 24px !important;
+    }
+  }
+}
+.modal2 {
+  height: 75% !important;
+  padding-bottom: 0;
+  & > div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 100% !important;
+    & > div:nth-child(3) {
+      flex: 1;
+    }
+  }
+}
+.mapStyle {
+  width: 100%;
+  height: 400px;
+  margin-top: 25px;
+}
+.mapSearch {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.mapTitle {
+  margin-left: 20px;
+  color: rgb(255, 122, 2);
+}
+.mapCard {
+  position: absolute !important;
+  top: 40px;
+  z-index: 9999;
+  background: #fefefe;
+  border: 1px solid #d1d1d1;
+  .mapItem {
+    width: 300px;
+    height: 28px;
+    padding-left: 5px;
+    overflow: hidden;
+    line-height: 28px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+  }
+}
+.mask {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.conCard {
+  .conCardMain {
+    display: flex;
+    flex-flow: column;
+    max-width: 260px;
+    height: 104px;
+    padding: 16px;
+    border: 1px solid #e6e6e6;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  .conCardMain2 {
+    display: flex;
+    flex-flow: column;
+    max-width: 260px;
+    height: 104px;
+    padding: 16px;
+    border: 1px solid #e6e6e6;
+    border-radius: 2px;
+  }
+  .conCardMain:hover {
+    padding: 15px !important;
+    border: 2px solid #6676f2 !important;
+  }
+  .cardName {
+    display: -webkit-box;
+    flex: 1;
+    width: 100%;
+    overflow: hidden;
+    color: #303030;
+    font-weight: 600;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+  .cardMob {
+    display: flex;
+    justify-content: space-between;
+    .cardNo {
+      flex: 1;
+      overflow: hidden;
+      color: #838383;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+    .cardStatu {
+      width: 70px;
+      font-weight: 600;
+      text-align: right;
+    }
+    .cardStatuIcon {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      margin-left: 8px;
+      border-radius: 5px;
+    }
+  }
+}
+.tableFoot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

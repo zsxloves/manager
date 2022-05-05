@@ -1,0 +1,2830 @@
+{
+  "id": "2935327",
+  "name": "安保系统",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "28118716",
+      "name": "大屏展示",
+      "font_class": "dapingzhanshi",
+      "unicode": "e938",
+      "unicode_decimal": 59704
+    },
+    {
+      "icon_id": "16990311",
+      "name": "返回首页",
+      "font_class": "fanhuishouye",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "15450187",
+      "name": "小区",
+      "font_class": "icon_xiaoqu",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "27738159",
+      "name": "停车场10",
+      "font_class": "tingchechang10",
+      "unicode": "e916",
+      "unicode_decimal": 59670
+    },
+    {
+      "icon_id": "27738160",
+      "name": "停车场14",
+      "font_class": "tingchechang14",
+      "unicode": "e917",
+      "unicode_decimal": 59671
+    },
+    {
+      "icon_id": "27738161",
+      "name": "停车场11",
+      "font_class": "tingchechang11",
+      "unicode": "e918",
+      "unicode_decimal": 59672
+    },
+    {
+      "icon_id": "27738162",
+      "name": "停车场17",
+      "font_class": "tingchechang17",
+      "unicode": "e919",
+      "unicode_decimal": 59673
+    },
+    {
+      "icon_id": "27738163",
+      "name": "停车场18",
+      "font_class": "tingchechang18",
+      "unicode": "e91a",
+      "unicode_decimal": 59674
+    },
+    {
+      "icon_id": "27738164",
+      "name": "停车场15",
+      "font_class": "tingchechang15",
+      "unicode": "e91b",
+      "unicode_decimal": 59675
+    },
+    {
+      "icon_id": "27738165",
+      "name": "停车场12",
+      "font_class": "tingchechang12",
+      "unicode": "e91c",
+      "unicode_decimal": 59676
+    },
+    {
+      "icon_id": "27738166",
+      "name": "停车场16",
+      "font_class": "tingchechang16",
+      "unicode": "e91d",
+      "unicode_decimal": 59677
+    },
+    {
+      "icon_id": "27738167",
+      "name": "停车场19",
+      "font_class": "tingchechang19",
+      "unicode": "e91e",
+      "unicode_decimal": 59678
+    },
+    {
+      "icon_id": "27738168",
+      "name": "停车场13",
+      "font_class": "tingchechang13",
+      "unicode": "e91f",
+      "unicode_decimal": 59679
+    },
+    {
+      "icon_id": "27733701",
+      "name": "不可行通道",
+      "font_class": "bukehangtongdao1",
+      "unicode": "e937",
+      "unicode_decimal": 59703
+    },
+    {
+      "icon_id": "27733683",
+      "name": "不可行通道",
+      "font_class": "bukehangtongdao",
+      "unicode": "e932",
+      "unicode_decimal": 59698
+    },
+    {
+      "icon_id": "27733114",
+      "name": "门",
+      "font_class": "men1",
+      "unicode": "e935",
+      "unicode_decimal": 59701
+    },
+    {
+      "icon_id": "27733115",
+      "name": "通道",
+      "font_class": "tongdao",
+      "unicode": "e936",
+      "unicode_decimal": 59702
+    },
+    {
+      "icon_id": "27723070",
+      "name": "门",
+      "font_class": "men",
+      "unicode": "e931",
+      "unicode_decimal": 59697
+    },
+    {
+      "icon_id": "27723072",
+      "name": "无人机",
+      "font_class": "wurenji",
+      "unicode": "e933",
+      "unicode_decimal": 59699
+    },
+    {
+      "icon_id": "27723073",
+      "name": "可行通道",
+      "font_class": "kehangtongdao",
+      "unicode": "e934",
+      "unicode_decimal": 59700
+    },
+    {
+      "icon_id": "27715384",
+      "name": "甚低频",
+      "font_class": "shendipin",
+      "unicode": "e92e",
+      "unicode_decimal": 59694
+    },
+    {
+      "icon_id": "27715385",
+      "name": "消防",
+      "font_class": "xiaofang",
+      "unicode": "e92f",
+      "unicode_decimal": 59695
+    },
+    {
+      "icon_id": "27715386",
+      "name": "人脸识别红",
+      "font_class": "renlianshibiehong",
+      "unicode": "e930",
+      "unicode_decimal": 59696
+    },
+    {
+      "icon_id": "27715380",
+      "name": "地下管控",
+      "font_class": "dixiaguankong",
+      "unicode": "e92a",
+      "unicode_decimal": 59690
+    },
+    {
+      "icon_id": "27715381",
+      "name": "人脸识别黄",
+      "font_class": "renlianshibiehuang",
+      "unicode": "e92b",
+      "unicode_decimal": 59691
+    },
+    {
+      "icon_id": "27715382",
+      "name": "哨兵",
+      "font_class": "shaobing1",
+      "unicode": "e92c",
+      "unicode_decimal": 59692
+    },
+    {
+      "icon_id": "27715383",
+      "name": "水基雷达",
+      "font_class": "shuijileida1",
+      "unicode": "e92d",
+      "unicode_decimal": 59693
+    },
+    {
+      "icon_id": "27466637",
+      "name": "哨兵",
+      "font_class": "shaobing",
+      "unicode": "e927",
+      "unicode_decimal": 59687
+    },
+    {
+      "icon_id": "27466638",
+      "name": "水基雷达",
+      "font_class": "shuijileida",
+      "unicode": "e928",
+      "unicode_decimal": 59688
+    },
+    {
+      "icon_id": "27466639",
+      "name": "周界",
+      "font_class": "zhoujie",
+      "unicode": "e929",
+      "unicode_decimal": 59689
+    },
+    {
+      "icon_id": "27308116",
+      "name": "车检通道vsa2",
+      "font_class": "chejiantongdaovsa2",
+      "unicode": "e924",
+      "unicode_decimal": 59684
+    },
+    {
+      "icon_id": "27308117",
+      "name": "安保封闭线lz2",
+      "font_class": "anbaofengbixianlz2",
+      "unicode": "e925",
+      "unicode_decimal": 59685
+    },
+    {
+      "icon_id": "27308118",
+      "name": "垂直交通电梯2",
+      "font_class": "chuizhijiaotongdianti2",
+      "unicode": "e926",
+      "unicode_decimal": 59686
+    },
+    {
+      "icon_id": "27308113",
+      "name": "场边医疗点",
+      "font_class": "changbianyiliaodian",
+      "unicode": "e921",
+      "unicode_decimal": 59681
+    },
+    {
+      "icon_id": "27308114",
+      "name": "垂直交通楼梯2",
+      "font_class": "chuizhijiaotonglouti2",
+      "unicode": "e922",
+      "unicode_decimal": 59682
+    },
+    {
+      "icon_id": "27308115",
+      "name": "人检通道psa2",
+      "font_class": "renjiantongdaopsa2",
+      "unicode": "e923",
+      "unicode_decimal": 59683
+    },
+    {
+      "icon_id": "27180720",
+      "name": "停车场",
+      "font_class": "tingchechang20",
+      "unicode": "e920",
+      "unicode_decimal": 59680
+    },
+    {
+      "icon_id": "27163511",
+      "name": "入口",
+      "font_class": "rukou",
+      "unicode": "e912",
+      "unicode_decimal": 59666
+    },
+    {
+      "icon_id": "27163512",
+      "name": "人检通道psa",
+      "font_class": "renjiantongdaopsa",
+      "unicode": "e913",
+      "unicode_decimal": 59667
+    },
+    {
+      "icon_id": "27163513",
+      "name": "免检通道ee",
+      "font_class": "mianjiantongdaoee",
+      "unicode": "e914",
+      "unicode_decimal": 59668
+    },
+    {
+      "icon_id": "27163514",
+      "name": "出口",
+      "font_class": "chukou2",
+      "unicode": "e915",
+      "unicode_decimal": 59669
+    },
+    {
+      "icon_id": "27163507",
+      "name": "安保封闭线lz",
+      "font_class": "anbaofengbixianlz",
+      "unicode": "e90e",
+      "unicode_decimal": 59662
+    },
+    {
+      "icon_id": "27163508",
+      "name": "垂直交通电梯",
+      "font_class": "chuizhijiaotongdianti",
+      "unicode": "e90f",
+      "unicode_decimal": 59663
+    },
+    {
+      "icon_id": "27163509",
+      "name": "车检通道vsa",
+      "font_class": "chejiantongdaovsa",
+      "unicode": "e910",
+      "unicode_decimal": 59664
+    },
+    {
+      "icon_id": "27163510",
+      "name": "垂直交通楼梯",
+      "font_class": "chuizhijiaotonglouti",
+      "unicode": "e911",
+      "unicode_decimal": 59665
+    },
+    {
+      "icon_id": "27128111",
+      "name": "通道6",
+      "font_class": "tongdao6",
+      "unicode": "e8fd",
+      "unicode_decimal": 59645
+    },
+    {
+      "icon_id": "27128112",
+      "name": "通道9",
+      "font_class": "tongdao9",
+      "unicode": "e8fe",
+      "unicode_decimal": 59646
+    },
+    {
+      "icon_id": "27128113",
+      "name": "通道14",
+      "font_class": "tongdao14",
+      "unicode": "e8ff",
+      "unicode_decimal": 59647
+    },
+    {
+      "icon_id": "27128114",
+      "name": "通道11",
+      "font_class": "tongdao11",
+      "unicode": "e900",
+      "unicode_decimal": 59648
+    },
+    {
+      "icon_id": "27128115",
+      "name": "通道10",
+      "font_class": "tongdao10",
+      "unicode": "e901",
+      "unicode_decimal": 59649
+    },
+    {
+      "icon_id": "27128116",
+      "name": "通道3",
+      "font_class": "tongdao3",
+      "unicode": "e902",
+      "unicode_decimal": 59650
+    },
+    {
+      "icon_id": "27128117",
+      "name": "通道15",
+      "font_class": "tongdao15",
+      "unicode": "e903",
+      "unicode_decimal": 59651
+    },
+    {
+      "icon_id": "27128118",
+      "name": "通道12",
+      "font_class": "tongdao12",
+      "unicode": "e904",
+      "unicode_decimal": 59652
+    },
+    {
+      "icon_id": "27128119",
+      "name": "通道5",
+      "font_class": "tongdao5",
+      "unicode": "e905",
+      "unicode_decimal": 59653
+    },
+    {
+      "icon_id": "27128120",
+      "name": "通道16",
+      "font_class": "tongdao16",
+      "unicode": "e906",
+      "unicode_decimal": 59654
+    },
+    {
+      "icon_id": "27128121",
+      "name": "通道7",
+      "font_class": "tongdao7",
+      "unicode": "e907",
+      "unicode_decimal": 59655
+    },
+    {
+      "icon_id": "27128122",
+      "name": "通道19",
+      "font_class": "tongdao19",
+      "unicode": "e908",
+      "unicode_decimal": 59656
+    },
+    {
+      "icon_id": "27128123",
+      "name": "通道18",
+      "font_class": "tongdao18",
+      "unicode": "e909",
+      "unicode_decimal": 59657
+    },
+    {
+      "icon_id": "27128124",
+      "name": "通道13",
+      "font_class": "tongdao13",
+      "unicode": "e90a",
+      "unicode_decimal": 59658
+    },
+    {
+      "icon_id": "27128125",
+      "name": "通道17",
+      "font_class": "tongdao17",
+      "unicode": "e90b",
+      "unicode_decimal": 59659
+    },
+    {
+      "icon_id": "27128126",
+      "name": "通道20",
+      "font_class": "tongdao20",
+      "unicode": "e90c",
+      "unicode_decimal": 59660
+    },
+    {
+      "icon_id": "27128127",
+      "name": "通道8",
+      "font_class": "tongdao8",
+      "unicode": "e90d",
+      "unicode_decimal": 59661
+    },
+    {
+      "icon_id": "27128108",
+      "name": "通道2",
+      "font_class": "tongdao2",
+      "unicode": "e8fa",
+      "unicode_decimal": 59642
+    },
+    {
+      "icon_id": "27128109",
+      "name": "通道4",
+      "font_class": "tongdao4",
+      "unicode": "e8fb",
+      "unicode_decimal": 59643
+    },
+    {
+      "icon_id": "27128110",
+      "name": "通道1",
+      "font_class": "tongdao1",
+      "unicode": "e8fc",
+      "unicode_decimal": 59644
+    },
+    {
+      "icon_id": "27125915",
+      "name": "安检点8",
+      "font_class": "anjiandian8",
+      "unicode": "e8f8",
+      "unicode_decimal": 59640
+    },
+    {
+      "icon_id": "27125916",
+      "name": "安检点7",
+      "font_class": "anjiandian7",
+      "unicode": "e8f9",
+      "unicode_decimal": 59641
+    },
+    {
+      "icon_id": "27125913",
+      "name": "安检点5",
+      "font_class": "anjiandian5",
+      "unicode": "e8f6",
+      "unicode_decimal": 59638
+    },
+    {
+      "icon_id": "27125914",
+      "name": "安检点6",
+      "font_class": "anjiandian6",
+      "unicode": "e8f7",
+      "unicode_decimal": 59639
+    },
+    {
+      "icon_id": "27125605",
+      "name": "关闭",
+      "font_class": "guanbi1",
+      "unicode": "e8f5",
+      "unicode_decimal": 59637
+    },
+    {
+      "icon_id": "27125579",
+      "name": "返回",
+      "font_class": "fanhui",
+      "unicode": "e8f3",
+      "unicode_decimal": 59635
+    },
+    {
+      "icon_id": "27095229",
+      "name": "视角锁定",
+      "font_class": "shijiaosuoding1",
+      "unicode": "e8f4",
+      "unicode_decimal": 59636
+    },
+    {
+      "icon_id": "26893176",
+      "name": "赛事标记",
+      "font_class": "saishibiaoji",
+      "unicode": "e8f2",
+      "unicode_decimal": 59634
+    },
+    {
+      "icon_id": "26666081",
+      "name": "向左箭头",
+      "font_class": "xiangzuojiantou",
+      "unicode": "e8f1",
+      "unicode_decimal": 59633
+    },
+    {
+      "icon_id": "26666078",
+      "name": "向上箭头",
+      "font_class": "xiangshangjiantou",
+      "unicode": "e8ea",
+      "unicode_decimal": 59626
+    },
+    {
+      "icon_id": "26666079",
+      "name": "向下箭头",
+      "font_class": "xiangxiajiantou",
+      "unicode": "e8eb",
+      "unicode_decimal": 59627
+    },
+    {
+      "icon_id": "26666080",
+      "name": "向右箭头",
+      "font_class": "xiangyoujiantou",
+      "unicode": "e8ec",
+      "unicode_decimal": 59628
+    },
+    {
+      "icon_id": "26614871",
+      "name": "播放三角",
+      "font_class": "bofangsanjiao",
+      "unicode": "e8e9",
+      "unicode_decimal": 59625
+    },
+    {
+      "icon_id": "26614105",
+      "name": "箭头",
+      "font_class": "jiantou",
+      "unicode": "e8e8",
+      "unicode_decimal": 59624
+    },
+    {
+      "icon_id": "26359636",
+      "name": "标点",
+      "font_class": "biaodian",
+      "unicode": "e8e7",
+      "unicode_decimal": 59623
+    },
+    {
+      "icon_id": "26184017",
+      "name": "添加",
+      "font_class": "tianjia",
+      "unicode": "e8e6",
+      "unicode_decimal": 59622
+    },
+    {
+      "icon_id": "26179441",
+      "name": "警告",
+      "font_class": "jinggao",
+      "unicode": "e8e5",
+      "unicode_decimal": 59621
+    },
+    {
+      "icon_id": "26178423",
+      "name": "箭头左",
+      "font_class": "jiantouzuo",
+      "unicode": "e8e3",
+      "unicode_decimal": 59619
+    },
+    {
+      "icon_id": "26178424",
+      "name": "箭头右",
+      "font_class": "jiantouyou",
+      "unicode": "e8e4",
+      "unicode_decimal": 59620
+    },
+    {
+      "icon_id": "26173942",
+      "name": "布控情况",
+      "font_class": "bukongqingkuang",
+      "unicode": "e8df",
+      "unicode_decimal": 59615
+    },
+    {
+      "icon_id": "26173902",
+      "name": "安保日志",
+      "font_class": "anbaorizhi",
+      "unicode": "e8d8",
+      "unicode_decimal": 59608
+    },
+    {
+      "icon_id": "26173163",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e8d9",
+      "unicode_decimal": 59609
+    },
+    {
+      "icon_id": "26172979",
+      "name": "区域疏散",
+      "font_class": "quyushusan",
+      "unicode": "e8da",
+      "unicode_decimal": 59610
+    },
+    {
+      "icon_id": "26172980",
+      "name": "视频标点",
+      "font_class": "shipinbiaodian",
+      "unicode": "e8db",
+      "unicode_decimal": 59611
+    },
+    {
+      "icon_id": "26172981",
+      "name": "编辑",
+      "font_class": "bianji",
+      "unicode": "e8dc",
+      "unicode_decimal": 59612
+    },
+    {
+      "icon_id": "26172982",
+      "name": "应急处置",
+      "font_class": "yingjichuzhi",
+      "unicode": "e8dd",
+      "unicode_decimal": 59613
+    },
+    {
+      "icon_id": "26172983",
+      "name": "线路安保",
+      "font_class": "xianluanbao",
+      "unicode": "e8de",
+      "unicode_decimal": 59614
+    },
+    {
+      "icon_id": "26172985",
+      "name": "预案推演",
+      "font_class": "yuantuiyan",
+      "unicode": "e8e0",
+      "unicode_decimal": 59616
+    },
+    {
+      "icon_id": "26172986",
+      "name": "人员核查",
+      "font_class": "renyuanhecha",
+      "unicode": "e8e1",
+      "unicode_decimal": 59617
+    },
+    {
+      "icon_id": "26172987",
+      "name": "制高点",
+      "font_class": "zhigaodian",
+      "unicode": "e8e2",
+      "unicode_decimal": 59618
+    },
+    {
+      "icon_id": "26169042",
+      "name": "警情预警",
+      "font_class": "jingqingyujing",
+      "unicode": "e8d4",
+      "unicode_decimal": 59604
+    },
+    {
+      "icon_id": "26169043",
+      "name": "水域警情",
+      "font_class": "shuiyujingqing",
+      "unicode": "e8d5",
+      "unicode_decimal": 59605
+    },
+    {
+      "icon_id": "26169044",
+      "name": "无人机预警",
+      "font_class": "wurenjiyujing",
+      "unicode": "e8d6",
+      "unicode_decimal": 59606
+    },
+    {
+      "icon_id": "26169045",
+      "name": "消防预警",
+      "font_class": "xiaofangyujing",
+      "unicode": "e8d7",
+      "unicode_decimal": 59607
+    },
+    {
+      "icon_id": "26169040",
+      "name": "安检预警",
+      "font_class": "anjianyujing",
+      "unicode": "e8d2",
+      "unicode_decimal": 59602
+    },
+    {
+      "icon_id": "26169041",
+      "name": "船只预警",
+      "font_class": "chuanzhiyujing",
+      "unicode": "e8d3",
+      "unicode_decimal": 59603
+    },
+    {
+      "icon_id": "26123986",
+      "name": "管理",
+      "font_class": "guanli",
+      "unicode": "e8cf",
+      "unicode_decimal": 59599
+    },
+    {
+      "icon_id": "26123987",
+      "name": "相机",
+      "font_class": "xiangji",
+      "unicode": "e8d0",
+      "unicode_decimal": 59600
+    },
+    {
+      "icon_id": "26123988",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "e8d1",
+      "unicode_decimal": 59601
+    },
+    {
+      "icon_id": "7908395",
+      "name": "上一页",
+      "font_class": "shangyiye",
+      "unicode": "e665",
+      "unicode_decimal": 58981
+    },
+    {
+      "icon_id": "7908397",
+      "name": "下一页",
+      "font_class": "xiayiye",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    },
+    {
+      "icon_id": "25896490",
+      "name": "系统管理",
+      "font_class": "xitongguanli",
+      "unicode": "e8ce",
+      "unicode_decimal": 59598
+    },
+    {
+      "icon_id": "25896056",
+      "name": "安保资源",
+      "font_class": "anbaoziyuan",
+      "unicode": "e8cd",
+      "unicode_decimal": 59597
+    },
+    {
+      "icon_id": "25895770",
+      "name": "组织配置",
+      "font_class": "zuzhipeizhi",
+      "unicode": "e8ca",
+      "unicode_decimal": 59594
+    },
+    {
+      "icon_id": "25895593",
+      "name": "安保活动",
+      "font_class": "anbaohuodong",
+      "unicode": "e8cc",
+      "unicode_decimal": 59596
+    },
+    {
+      "icon_id": "25895188",
+      "name": "AR资源",
+      "font_class": "ARziyuan",
+      "unicode": "e8cb",
+      "unicode_decimal": 59595
+    },
+    {
+      "icon_id": "25886494",
+      "name": "出口3",
+      "font_class": "chukou3",
+      "unicode": "e8bd",
+      "unicode_decimal": 59581
+    },
+    {
+      "icon_id": "25886495",
+      "name": "出口5",
+      "font_class": "chukou5",
+      "unicode": "e8be",
+      "unicode_decimal": 59582
+    },
+    {
+      "icon_id": "25886496",
+      "name": "出口6",
+      "font_class": "chukou6",
+      "unicode": "e8bf",
+      "unicode_decimal": 59583
+    },
+    {
+      "icon_id": "25886497",
+      "name": "出口9",
+      "font_class": "chukou9",
+      "unicode": "e8c0",
+      "unicode_decimal": 59584
+    },
+    {
+      "icon_id": "25886498",
+      "name": "出口15",
+      "font_class": "chukou15",
+      "unicode": "e8c1",
+      "unicode_decimal": 59585
+    },
+    {
+      "icon_id": "25886499",
+      "name": "出口14",
+      "font_class": "chukou14",
+      "unicode": "e8c2",
+      "unicode_decimal": 59586
+    },
+    {
+      "icon_id": "25886500",
+      "name": "出口10",
+      "font_class": "chukou10",
+      "unicode": "e8c3",
+      "unicode_decimal": 59587
+    },
+    {
+      "icon_id": "25886501",
+      "name": "出口11",
+      "font_class": "chukou11",
+      "unicode": "e8c4",
+      "unicode_decimal": 59588
+    },
+    {
+      "icon_id": "25886502",
+      "name": "出口4",
+      "font_class": "chukou4",
+      "unicode": "e8c5",
+      "unicode_decimal": 59589
+    },
+    {
+      "icon_id": "25886503",
+      "name": "出口7",
+      "font_class": "chukou7",
+      "unicode": "e8c6",
+      "unicode_decimal": 59590
+    },
+    {
+      "icon_id": "25886504",
+      "name": "出口13",
+      "font_class": "chukou13",
+      "unicode": "e8c7",
+      "unicode_decimal": 59591
+    },
+    {
+      "icon_id": "25886505",
+      "name": "出口8",
+      "font_class": "chukou8",
+      "unicode": "e8c8",
+      "unicode_decimal": 59592
+    },
+    {
+      "icon_id": "25886506",
+      "name": "出口12",
+      "font_class": "chukou12",
+      "unicode": "e8c9",
+      "unicode_decimal": 59593
+    },
+    {
+      "icon_id": "25881650",
+      "name": "警力",
+      "font_class": "jingli",
+      "unicode": "e8b9",
+      "unicode_decimal": 59577
+    },
+    {
+      "icon_id": "25881651",
+      "name": "警车",
+      "font_class": "jingche",
+      "unicode": "e8ba",
+      "unicode_decimal": 59578
+    },
+    {
+      "icon_id": "25881652",
+      "name": "重点人员",
+      "font_class": "zhongdianrenyuan",
+      "unicode": "e8bb",
+      "unicode_decimal": 59579
+    },
+    {
+      "icon_id": "25881653",
+      "name": "gps",
+      "font_class": "gps",
+      "unicode": "e8bc",
+      "unicode_decimal": 59580
+    },
+    {
+      "icon_id": "25880431",
+      "name": "单位",
+      "font_class": "danwei",
+      "unicode": "e8b3",
+      "unicode_decimal": 59571
+    },
+    {
+      "icon_id": "25880432",
+      "name": "标注",
+      "font_class": "biaozhu",
+      "unicode": "e8b4",
+      "unicode_decimal": 59572
+    },
+    {
+      "icon_id": "25880433",
+      "name": "线路",
+      "font_class": "xianlu",
+      "unicode": "e8b5",
+      "unicode_decimal": 59573
+    },
+    {
+      "icon_id": "25880434",
+      "name": "房屋",
+      "font_class": "fangwu",
+      "unicode": "e8b6",
+      "unicode_decimal": 59574
+    },
+    {
+      "icon_id": "25880435",
+      "name": "区域",
+      "font_class": "quyu",
+      "unicode": "e8b7",
+      "unicode_decimal": 59575
+    },
+    {
+      "icon_id": "25880436",
+      "name": "当日验证",
+      "font_class": "dangriyanzheng",
+      "unicode": "e8b8",
+      "unicode_decimal": 59576
+    },
+    {
+      "icon_id": "25843483",
+      "name": "半球摄像离线",
+      "font_class": "banqiushexianglixian1",
+      "unicode": "e8b0",
+      "unicode_decimal": 59568
+    },
+    {
+      "icon_id": "25843484",
+      "name": "枪机摄像离线",
+      "font_class": "qiangjishexianglixian1",
+      "unicode": "e8b1",
+      "unicode_decimal": 59569
+    },
+    {
+      "icon_id": "25843485",
+      "name": "全球摄像离线",
+      "font_class": "quanqiushexianglixian1",
+      "unicode": "e8b2",
+      "unicode_decimal": 59570
+    },
+    {
+      "icon_id": "25841388",
+      "name": "半球摄像绿",
+      "font_class": "banqiushexianglv",
+      "unicode": "e8ad",
+      "unicode_decimal": 59565
+    },
+    {
+      "icon_id": "25841389",
+      "name": "枪机摄像绿",
+      "font_class": "qiangjishexianglv",
+      "unicode": "e8ae",
+      "unicode_decimal": 59566
+    },
+    {
+      "icon_id": "25841390",
+      "name": "全球摄像绿",
+      "font_class": "quanqiushexianglv",
+      "unicode": "e8af",
+      "unicode_decimal": 59567
+    },
+    {
+      "icon_id": "25789334",
+      "name": "交通岗位17",
+      "font_class": "jiaotonggangwei17",
+      "unicode": "e89c",
+      "unicode_decimal": 59548
+    },
+    {
+      "icon_id": "25788418",
+      "name": "交通岗位27",
+      "font_class": "jiaotonggangwei27",
+      "unicode": "e8a3",
+      "unicode_decimal": 59555
+    },
+    {
+      "icon_id": "25788419",
+      "name": "交通岗位21",
+      "font_class": "jiaotonggangwei21",
+      "unicode": "e8a4",
+      "unicode_decimal": 59556
+    },
+    {
+      "icon_id": "25788420",
+      "name": "交通岗位14",
+      "font_class": "jiaotonggangwei14",
+      "unicode": "e8a5",
+      "unicode_decimal": 59557
+    },
+    {
+      "icon_id": "25788421",
+      "name": "交通岗位16",
+      "font_class": "jiaotonggangwei16",
+      "unicode": "e8a6",
+      "unicode_decimal": 59558
+    },
+    {
+      "icon_id": "25788422",
+      "name": "交通岗位28",
+      "font_class": "jiaotonggangwei28",
+      "unicode": "e8a7",
+      "unicode_decimal": 59559
+    },
+    {
+      "icon_id": "25788423",
+      "name": "交通岗位29",
+      "font_class": "jiaotonggangwei29",
+      "unicode": "e8a8",
+      "unicode_decimal": 59560
+    },
+    {
+      "icon_id": "25788424",
+      "name": "交通岗位30",
+      "font_class": "jiaotonggangwei30",
+      "unicode": "e8a9",
+      "unicode_decimal": 59561
+    },
+    {
+      "icon_id": "25788425",
+      "name": "交通岗位26",
+      "font_class": "jiaotonggangwei26",
+      "unicode": "e8aa",
+      "unicode_decimal": 59562
+    },
+    {
+      "icon_id": "25788426",
+      "name": "交通岗位22",
+      "font_class": "jiaotonggangwei22",
+      "unicode": "e8ab",
+      "unicode_decimal": 59563
+    },
+    {
+      "icon_id": "25788427",
+      "name": "交通岗位10",
+      "font_class": "jiaotonggangwei10",
+      "unicode": "e8ac",
+      "unicode_decimal": 59564
+    },
+    {
+      "icon_id": "25788403",
+      "name": "交通岗位6",
+      "font_class": "jiaotonggangwei6",
+      "unicode": "e894",
+      "unicode_decimal": 59540
+    },
+    {
+      "icon_id": "25788404",
+      "name": "交通岗位8",
+      "font_class": "jiaotonggangwei8",
+      "unicode": "e895",
+      "unicode_decimal": 59541
+    },
+    {
+      "icon_id": "25788405",
+      "name": "交通岗位12",
+      "font_class": "jiaotonggangwei12",
+      "unicode": "e896",
+      "unicode_decimal": 59542
+    },
+    {
+      "icon_id": "25788406",
+      "name": "交通岗位9",
+      "font_class": "jiaotonggangwei9",
+      "unicode": "e897",
+      "unicode_decimal": 59543
+    },
+    {
+      "icon_id": "25788407",
+      "name": "交通岗位13",
+      "font_class": "jiaotonggangwei13",
+      "unicode": "e898",
+      "unicode_decimal": 59544
+    },
+    {
+      "icon_id": "25788408",
+      "name": "交通岗位18",
+      "font_class": "jiaotonggangwei18",
+      "unicode": "e899",
+      "unicode_decimal": 59545
+    },
+    {
+      "icon_id": "25788409",
+      "name": "交通岗位7",
+      "font_class": "jiaotonggangwei7",
+      "unicode": "e89a",
+      "unicode_decimal": 59546
+    },
+    {
+      "icon_id": "25788410",
+      "name": "交通岗位23",
+      "font_class": "jiaotonggangwei23",
+      "unicode": "e89b",
+      "unicode_decimal": 59547
+    },
+    {
+      "icon_id": "25788412",
+      "name": "交通岗位15",
+      "font_class": "jiaotonggangwei15",
+      "unicode": "e89d",
+      "unicode_decimal": 59549
+    },
+    {
+      "icon_id": "25788413",
+      "name": "交通岗位20",
+      "font_class": "jiaotonggangwei20",
+      "unicode": "e89e",
+      "unicode_decimal": 59550
+    },
+    {
+      "icon_id": "25788414",
+      "name": "交通岗位25",
+      "font_class": "jiaotonggangwei25",
+      "unicode": "e89f",
+      "unicode_decimal": 59551
+    },
+    {
+      "icon_id": "25788415",
+      "name": "交通岗位24",
+      "font_class": "jiaotonggangwei24",
+      "unicode": "e8a0",
+      "unicode_decimal": 59552
+    },
+    {
+      "icon_id": "25788416",
+      "name": "交通岗位19",
+      "font_class": "jiaotonggangwei19",
+      "unicode": "e8a1",
+      "unicode_decimal": 59553
+    },
+    {
+      "icon_id": "25788417",
+      "name": "交通岗位11",
+      "font_class": "jiaotonggangwei11",
+      "unicode": "e8a2",
+      "unicode_decimal": 59554
+    },
+    {
+      "icon_id": "25762227",
+      "name": "半球摄像离线",
+      "font_class": "banqiushexianglixian",
+      "unicode": "e891",
+      "unicode_decimal": 59537
+    },
+    {
+      "icon_id": "25762228",
+      "name": "全球摄像离线",
+      "font_class": "quanqiushexianglixian",
+      "unicode": "e892",
+      "unicode_decimal": 59538
+    },
+    {
+      "icon_id": "25762229",
+      "name": "枪机摄像离线",
+      "font_class": "qiangjishexianglixian",
+      "unicode": "e893",
+      "unicode_decimal": 59539
+    },
+    {
+      "icon_id": "25741213",
+      "name": "场区监测",
+      "font_class": "changqujiance",
+      "unicode": "e88f",
+      "unicode_decimal": 59535
+    },
+    {
+      "icon_id": "25740502",
+      "name": "监控离线",
+      "font_class": "jiankonglixian",
+      "unicode": "e890",
+      "unicode_decimal": 59536
+    },
+    {
+      "icon_id": "25733282",
+      "name": "下拉箭头上",
+      "font_class": "xialajiantoushang",
+      "unicode": "e88d",
+      "unicode_decimal": 59533
+    },
+    {
+      "icon_id": "25733283",
+      "name": "下拉箭头下",
+      "font_class": "xialajiantouxia",
+      "unicode": "e88e",
+      "unicode_decimal": 59534
+    },
+    {
+      "icon_id": "25729408",
+      "name": "指挥部",
+      "font_class": "zhihuibu1",
+      "unicode": "e88c",
+      "unicode_decimal": 59532
+    },
+    {
+      "icon_id": "25707556",
+      "name": "树选择",
+      "font_class": "shuxuanze",
+      "unicode": "e88b",
+      "unicode_decimal": 59531
+    },
+    {
+      "icon_id": "25678367",
+      "name": "暂停",
+      "font_class": "a-bianzu6",
+      "unicode": "e8f0",
+      "unicode_decimal": 59632
+    },
+    {
+      "icon_id": "25678117",
+      "name": "周界预警",
+      "font_class": "zhoujieyujing",
+      "unicode": "e88a",
+      "unicode_decimal": 59530
+    },
+    {
+      "icon_id": "25678013",
+      "name": "半球摄像头",
+      "font_class": "banqiushexiangtou1",
+      "unicode": "e889",
+      "unicode_decimal": 59529
+    },
+    {
+      "icon_id": "25677938",
+      "name": "锅炉房",
+      "font_class": "guolufang1",
+      "unicode": "e886",
+      "unicode_decimal": 59526
+    },
+    {
+      "icon_id": "25677939",
+      "name": "新风系统",
+      "font_class": "xinfengxitong1",
+      "unicode": "e887",
+      "unicode_decimal": 59527
+    },
+    {
+      "icon_id": "25677940",
+      "name": "验票点",
+      "font_class": "yanpiaodian1",
+      "unicode": "e888",
+      "unicode_decimal": 59528
+    },
+    {
+      "icon_id": "25677932",
+      "name": "验票点",
+      "font_class": "yanpiaodian",
+      "unicode": "e885",
+      "unicode_decimal": 59525
+    },
+    {
+      "icon_id": "25677929",
+      "name": "新风系统",
+      "font_class": "xinfengxitong",
+      "unicode": "e882",
+      "unicode_decimal": 59522
+    },
+    {
+      "icon_id": "25677930",
+      "name": "锅炉房",
+      "font_class": "guolufang",
+      "unicode": "e883",
+      "unicode_decimal": 59523
+    },
+    {
+      "icon_id": "25677931",
+      "name": "AR视频",
+      "font_class": "ARshipin",
+      "unicode": "e884",
+      "unicode_decimal": 59524
+    },
+    {
+      "icon_id": "25677449",
+      "name": "播放",
+      "font_class": "bofang",
+      "unicode": "e8ef",
+      "unicode_decimal": 59631
+    },
+    {
+      "icon_id": "25677448",
+      "name": "时间",
+      "font_class": "xingzhuang",
+      "unicode": "e8ee",
+      "unicode_decimal": 59630
+    },
+    {
+      "icon_id": "25677444",
+      "name": "关闭",
+      "font_class": "guanbi",
+      "unicode": "e8ed",
+      "unicode_decimal": 59629
+    },
+    {
+      "icon_id": "25676984",
+      "name": "卡口35",
+      "font_class": "kakou35",
+      "unicode": "e833",
+      "unicode_decimal": 59443
+    },
+    {
+      "icon_id": "25676985",
+      "name": "停车场4",
+      "font_class": "tingchechang4",
+      "unicode": "e834",
+      "unicode_decimal": 59444
+    },
+    {
+      "icon_id": "25676986",
+      "name": "民警",
+      "font_class": "minjing",
+      "unicode": "e835",
+      "unicode_decimal": 59445
+    },
+    {
+      "icon_id": "25676987",
+      "name": "交警12",
+      "font_class": "jiaojing12",
+      "unicode": "e836",
+      "unicode_decimal": 59446
+    },
+    {
+      "icon_id": "25676988",
+      "name": "配电间",
+      "font_class": "peidianjian1",
+      "unicode": "e837",
+      "unicode_decimal": 59447
+    },
+    {
+      "icon_id": "25676989",
+      "name": "安检点3",
+      "font_class": "anjiandian3",
+      "unicode": "e838",
+      "unicode_decimal": 59448
+    },
+    {
+      "icon_id": "25676990",
+      "name": "卡口30",
+      "font_class": "kakou30",
+      "unicode": "e839",
+      "unicode_decimal": 59449
+    },
+    {
+      "icon_id": "25676991",
+      "name": "卡口24",
+      "font_class": "kakou24",
+      "unicode": "e83a",
+      "unicode_decimal": 59450
+    },
+    {
+      "icon_id": "25676992",
+      "name": "交警16",
+      "font_class": "jiaojing16",
+      "unicode": "e83b",
+      "unicode_decimal": 59451
+    },
+    {
+      "icon_id": "25676993",
+      "name": "卡口18",
+      "font_class": "kakou18",
+      "unicode": "e83c",
+      "unicode_decimal": 59452
+    },
+    {
+      "icon_id": "25676994",
+      "name": "交警8",
+      "font_class": "jiaojing8",
+      "unicode": "e83d",
+      "unicode_decimal": 59453
+    },
+    {
+      "icon_id": "25676995",
+      "name": "卡口31",
+      "font_class": "kakou31",
+      "unicode": "e83e",
+      "unicode_decimal": 59454
+    },
+    {
+      "icon_id": "25676996",
+      "name": "卡口19",
+      "font_class": "kakou19",
+      "unicode": "e83f",
+      "unicode_decimal": 59455
+    },
+    {
+      "icon_id": "25676997",
+      "name": "卡口25",
+      "font_class": "kakou25",
+      "unicode": "e840",
+      "unicode_decimal": 59456
+    },
+    {
+      "icon_id": "25676998",
+      "name": "停车场1",
+      "font_class": "tingchechang1",
+      "unicode": "e841",
+      "unicode_decimal": 59457
+    },
+    {
+      "icon_id": "25676999",
+      "name": "安检点2",
+      "font_class": "anjiandian2",
+      "unicode": "e842",
+      "unicode_decimal": 59458
+    },
+    {
+      "icon_id": "25677000",
+      "name": "停车场3",
+      "font_class": "tingchechang3",
+      "unicode": "e843",
+      "unicode_decimal": 59459
+    },
+    {
+      "icon_id": "25677001",
+      "name": "交警17",
+      "font_class": "jiaojing17",
+      "unicode": "e844",
+      "unicode_decimal": 59460
+    },
+    {
+      "icon_id": "25677002",
+      "name": "交警15",
+      "font_class": "jiaojing15",
+      "unicode": "e845",
+      "unicode_decimal": 59461
+    },
+    {
+      "icon_id": "25677003",
+      "name": "验证点9",
+      "font_class": "yanzhengdian9",
+      "unicode": "e846",
+      "unicode_decimal": 59462
+    },
+    {
+      "icon_id": "25677004",
+      "name": "卡口33",
+      "font_class": "kakou33",
+      "unicode": "e847",
+      "unicode_decimal": 59463
+    },
+    {
+      "icon_id": "25677005",
+      "name": "卡口27",
+      "font_class": "kakou27",
+      "unicode": "e848",
+      "unicode_decimal": 59464
+    },
+    {
+      "icon_id": "25677006",
+      "name": "卡口32",
+      "font_class": "kakou32",
+      "unicode": "e849",
+      "unicode_decimal": 59465
+    },
+    {
+      "icon_id": "25677007",
+      "name": "卡口26",
+      "font_class": "kakou26",
+      "unicode": "e84a",
+      "unicode_decimal": 59466
+    },
+    {
+      "icon_id": "25677008",
+      "name": "停车场2",
+      "font_class": "tingchechang2",
+      "unicode": "e84b",
+      "unicode_decimal": 59467
+    },
+    {
+      "icon_id": "25677009",
+      "name": "交警14",
+      "font_class": "jiaojing14",
+      "unicode": "e84c",
+      "unicode_decimal": 59468
+    },
+    {
+      "icon_id": "25677010",
+      "name": "验证点8",
+      "font_class": "yanzhengdian8",
+      "unicode": "e84d",
+      "unicode_decimal": 59469
+    },
+    {
+      "icon_id": "25677011",
+      "name": "安检点1",
+      "font_class": "anjiandian1",
+      "unicode": "e84e",
+      "unicode_decimal": 59470
+    },
+    {
+      "icon_id": "25677012",
+      "name": "治安处置点",
+      "font_class": "zhianchuzhidian1",
+      "unicode": "e84f",
+      "unicode_decimal": 59471
+    },
+    {
+      "icon_id": "25677013",
+      "name": "验证点21",
+      "font_class": "yanzhengdian21",
+      "unicode": "e850",
+      "unicode_decimal": 59472
+    },
+    {
+      "icon_id": "25677014",
+      "name": "卡口69",
+      "font_class": "kakou69",
+      "unicode": "e851",
+      "unicode_decimal": 59473
+    },
+    {
+      "icon_id": "25677015",
+      "name": "卡口41",
+      "font_class": "kakou41",
+      "unicode": "e852",
+      "unicode_decimal": 59474
+    },
+    {
+      "icon_id": "25677016",
+      "name": "卡口55",
+      "font_class": "kakou55",
+      "unicode": "e853",
+      "unicode_decimal": 59475
+    },
+    {
+      "icon_id": "25677017",
+      "name": "机动性查岗29",
+      "font_class": "jidongxingchagang29",
+      "unicode": "e854",
+      "unicode_decimal": 59476
+    },
+    {
+      "icon_id": "25677018",
+      "name": "机动性查岗14",
+      "font_class": "jidongxingchagang14",
+      "unicode": "e855",
+      "unicode_decimal": 59477
+    },
+    {
+      "icon_id": "25677019",
+      "name": "机动性查岗15",
+      "font_class": "jidongxingchagang15",
+      "unicode": "e856",
+      "unicode_decimal": 59478
+    },
+    {
+      "icon_id": "25677020",
+      "name": "卡口54",
+      "font_class": "kakou54",
+      "unicode": "e857",
+      "unicode_decimal": 59479
+    },
+    {
+      "icon_id": "25677021",
+      "name": "卡口40",
+      "font_class": "kakou40",
+      "unicode": "e858",
+      "unicode_decimal": 59480
+    },
+    {
+      "icon_id": "25677022",
+      "name": "机动性查岗28",
+      "font_class": "jidongxingchagang28",
+      "unicode": "e859",
+      "unicode_decimal": 59481
+    },
+    {
+      "icon_id": "25677023",
+      "name": "卡口1",
+      "font_class": "kakou1",
+      "unicode": "e85a",
+      "unicode_decimal": 59482
+    },
+    {
+      "icon_id": "25677024",
+      "name": "卡口68",
+      "font_class": "kakou68",
+      "unicode": "e85b",
+      "unicode_decimal": 59483
+    },
+    {
+      "icon_id": "25677025",
+      "name": "验证点20",
+      "font_class": "yanzhengdian20",
+      "unicode": "e85c",
+      "unicode_decimal": 59484
+    },
+    {
+      "icon_id": "25677026",
+      "name": "验证点22",
+      "font_class": "yanzhengdian22",
+      "unicode": "e85d",
+      "unicode_decimal": 59485
+    },
+    {
+      "icon_id": "25677027",
+      "name": "卡口42",
+      "font_class": "kakou42",
+      "unicode": "e85e",
+      "unicode_decimal": 59486
+    },
+    {
+      "icon_id": "25677028",
+      "name": "卡口56",
+      "font_class": "kakou56",
+      "unicode": "e85f",
+      "unicode_decimal": 59487
+    },
+    {
+      "icon_id": "25677029",
+      "name": "卡口3",
+      "font_class": "kakou3",
+      "unicode": "e860",
+      "unicode_decimal": 59488
+    },
+    {
+      "icon_id": "25677030",
+      "name": "机动性查岗16",
+      "font_class": "jidongxingchagang16",
+      "unicode": "e861",
+      "unicode_decimal": 59489
+    },
+    {
+      "icon_id": "25677031",
+      "name": "机动性查岗8",
+      "font_class": "jidongxingchagang8",
+      "unicode": "e862",
+      "unicode_decimal": 59490
+    },
+    {
+      "icon_id": "25677032",
+      "name": "机动性查岗17",
+      "font_class": "jidongxingchagang17",
+      "unicode": "e863",
+      "unicode_decimal": 59491
+    },
+    {
+      "icon_id": "25677033",
+      "name": "卡口43",
+      "font_class": "kakou43",
+      "unicode": "e864",
+      "unicode_decimal": 59492
+    },
+    {
+      "icon_id": "25677034",
+      "name": "机动性查岗9",
+      "font_class": "jidongxingchagang9",
+      "unicode": "e865",
+      "unicode_decimal": 59493
+    },
+    {
+      "icon_id": "25677035",
+      "name": "卡口57",
+      "font_class": "kakou57",
+      "unicode": "e866",
+      "unicode_decimal": 59494
+    },
+    {
+      "icon_id": "25677036",
+      "name": "卡口2",
+      "font_class": "kakou2",
+      "unicode": "e867",
+      "unicode_decimal": 59495
+    },
+    {
+      "icon_id": "25677037",
+      "name": "卡口6",
+      "font_class": "kakou6",
+      "unicode": "e868",
+      "unicode_decimal": 59496
+    },
+    {
+      "icon_id": "25677038",
+      "name": "验证点27",
+      "font_class": "yanzhengdian27",
+      "unicode": "e869",
+      "unicode_decimal": 59497
+    },
+    {
+      "icon_id": "25677039",
+      "name": "验证点23",
+      "font_class": "yanzhengdian23",
+      "unicode": "e86a",
+      "unicode_decimal": 59498
+    },
+    {
+      "icon_id": "25677040",
+      "name": "卡口47",
+      "font_class": "kakou47",
+      "unicode": "e86b",
+      "unicode_decimal": 59499
+    },
+    {
+      "icon_id": "25677041",
+      "name": "卡口53",
+      "font_class": "kakou53",
+      "unicode": "e86c",
+      "unicode_decimal": 59500
+    },
+    {
+      "icon_id": "25677042",
+      "name": "机动性查岗13",
+      "font_class": "jidongxingchagang13",
+      "unicode": "e86d",
+      "unicode_decimal": 59501
+    },
+    {
+      "icon_id": "25677043",
+      "name": "机动性查岗12",
+      "font_class": "jidongxingchagang12",
+      "unicode": "e86e",
+      "unicode_decimal": 59502
+    },
+    {
+      "icon_id": "25677044",
+      "name": "卡口52",
+      "font_class": "kakou52",
+      "unicode": "e86f",
+      "unicode_decimal": 59503
+    },
+    {
+      "icon_id": "25677045",
+      "name": "卡口7",
+      "font_class": "kakou7",
+      "unicode": "e870",
+      "unicode_decimal": 59504
+    },
+    {
+      "icon_id": "25677046",
+      "name": "卡口46",
+      "font_class": "kakou46",
+      "unicode": "e871",
+      "unicode_decimal": 59505
+    },
+    {
+      "icon_id": "25677047",
+      "name": "验证点26",
+      "font_class": "yanzhengdian26",
+      "unicode": "e872",
+      "unicode_decimal": 59506
+    },
+    {
+      "icon_id": "25677048",
+      "name": "验证点18",
+      "font_class": "yanzhengdian18",
+      "unicode": "e873",
+      "unicode_decimal": 59507
+    },
+    {
+      "icon_id": "25677049",
+      "name": "卡口5",
+      "font_class": "kakou5",
+      "unicode": "e874",
+      "unicode_decimal": 59508
+    },
+    {
+      "icon_id": "25677050",
+      "name": "卡口44",
+      "font_class": "kakou44",
+      "unicode": "e875",
+      "unicode_decimal": 59509
+    },
+    {
+      "icon_id": "25677051",
+      "name": "验证点30",
+      "font_class": "yanzhengdian30",
+      "unicode": "e876",
+      "unicode_decimal": 59510
+    },
+    {
+      "icon_id": "25677052",
+      "name": "机动性查岗11",
+      "font_class": "jidongxingchagang11",
+      "unicode": "e877",
+      "unicode_decimal": 59511
+    },
+    {
+      "icon_id": "25677053",
+      "name": "卡口50",
+      "font_class": "kakou50",
+      "unicode": "e878",
+      "unicode_decimal": 59512
+    },
+    {
+      "icon_id": "25677054",
+      "name": "机动性查岗10",
+      "font_class": "jidongxingchagang10",
+      "unicode": "e879",
+      "unicode_decimal": 59513
+    },
+    {
+      "icon_id": "25677055",
+      "name": "卡口4",
+      "font_class": "kakou4",
+      "unicode": "e87a",
+      "unicode_decimal": 59514
+    },
+    {
+      "icon_id": "25677056",
+      "name": "卡口51",
+      "font_class": "kakou51",
+      "unicode": "e87b",
+      "unicode_decimal": 59515
+    },
+    {
+      "icon_id": "25677057",
+      "name": "验证点19",
+      "font_class": "yanzhengdian19",
+      "unicode": "e87c",
+      "unicode_decimal": 59516
+    },
+    {
+      "icon_id": "25677058",
+      "name": "卡口45",
+      "font_class": "kakou45",
+      "unicode": "e87d",
+      "unicode_decimal": 59517
+    },
+    {
+      "icon_id": "25677059",
+      "name": "出口备份",
+      "font_class": "chukoubeifen",
+      "unicode": "e87e",
+      "unicode_decimal": 59518
+    },
+    {
+      "icon_id": "25677060",
+      "name": "注册办公室",
+      "font_class": "zhucebangongshi1",
+      "unicode": "e87f",
+      "unicode_decimal": 59519
+    },
+    {
+      "icon_id": "25677061",
+      "name": "验证点24",
+      "font_class": "yanzhengdian24",
+      "unicode": "e880",
+      "unicode_decimal": 59520
+    },
+    {
+      "icon_id": "25677062",
+      "name": "验证点25",
+      "font_class": "yanzhengdian25",
+      "unicode": "e881",
+      "unicode_decimal": 59521
+    },
+    {
+      "icon_id": "25676878",
+      "name": "机动性查岗18",
+      "font_class": "jidongxingchagang18",
+      "unicode": "e7c9",
+      "unicode_decimal": 59337
+    },
+    {
+      "icon_id": "25676879",
+      "name": "卡口64",
+      "font_class": "kakou64",
+      "unicode": "e7ca",
+      "unicode_decimal": 59338
+    },
+    {
+      "icon_id": "25676880",
+      "name": "验证点14",
+      "font_class": "yanzhengdian14",
+      "unicode": "e7cb",
+      "unicode_decimal": 59339
+    },
+    {
+      "icon_id": "25676881",
+      "name": "机动性查岗20",
+      "font_class": "jidongxingchagang20",
+      "unicode": "e7cc",
+      "unicode_decimal": 59340
+    },
+    {
+      "icon_id": "25676882",
+      "name": "机动性查岗30",
+      "font_class": "jidongxingchagang30",
+      "unicode": "e7cd",
+      "unicode_decimal": 59341
+    },
+    {
+      "icon_id": "25676883",
+      "name": "交通岗位5",
+      "font_class": "jiaotonggangwei5",
+      "unicode": "e7ce",
+      "unicode_decimal": 59342
+    },
+    {
+      "icon_id": "25676884",
+      "name": "交警2",
+      "font_class": "jiaojing2",
+      "unicode": "e7cf",
+      "unicode_decimal": 59343
+    },
+    {
+      "icon_id": "25676885",
+      "name": "验证点28",
+      "font_class": "yanzhengdian28",
+      "unicode": "e7d0",
+      "unicode_decimal": 59344
+    },
+    {
+      "icon_id": "25676886",
+      "name": "卡口9",
+      "font_class": "kakou9",
+      "unicode": "e7d1",
+      "unicode_decimal": 59345
+    },
+    {
+      "icon_id": "25676888",
+      "name": "卡口63",
+      "font_class": "kakou63",
+      "unicode": "e7d3",
+      "unicode_decimal": 59347
+    },
+    {
+      "icon_id": "25676889",
+      "name": "机动性查岗3",
+      "font_class": "jidongxingchagang3",
+      "unicode": "e7d4",
+      "unicode_decimal": 59348
+    },
+    {
+      "icon_id": "25676890",
+      "name": "卡口62",
+      "font_class": "kakou62",
+      "unicode": "e7d5",
+      "unicode_decimal": 59349
+    },
+    {
+      "icon_id": "25676891",
+      "name": "交通岗位1",
+      "font_class": "jiaotonggangwei1",
+      "unicode": "e7d6",
+      "unicode_decimal": 59350
+    },
+    {
+      "icon_id": "25676892",
+      "name": "交通卡口",
+      "font_class": "jiaotongkakou1",
+      "unicode": "e7d7",
+      "unicode_decimal": 59351
+    },
+    {
+      "icon_id": "25676893",
+      "name": "验证点16",
+      "font_class": "yanzhengdian16",
+      "unicode": "e7d8",
+      "unicode_decimal": 59352
+    },
+    {
+      "icon_id": "25676894",
+      "name": "验证点5",
+      "font_class": "yanzhengdian5",
+      "unicode": "e7d9",
+      "unicode_decimal": 59353
+    },
+    {
+      "icon_id": "25676895",
+      "name": "交通岗位3",
+      "font_class": "jiaotonggangwei3",
+      "unicode": "e7da",
+      "unicode_decimal": 59354
+    },
+    {
+      "icon_id": "25676896",
+      "name": "卡口17",
+      "font_class": "kakou17",
+      "unicode": "e7db",
+      "unicode_decimal": 59355
+    },
+    {
+      "icon_id": "25676897",
+      "name": "验证点17",
+      "font_class": "yanzhengdian17",
+      "unicode": "e7dc",
+      "unicode_decimal": 59356
+    },
+    {
+      "icon_id": "25676898",
+      "name": "卡口66",
+      "font_class": "kakou66",
+      "unicode": "e7dd",
+      "unicode_decimal": 59357
+    },
+    {
+      "icon_id": "25676899",
+      "name": "机动性查岗6",
+      "font_class": "jidongxingchagang6",
+      "unicode": "e7de",
+      "unicode_decimal": 59358
+    },
+    {
+      "icon_id": "25676900",
+      "name": "机动性查岗4",
+      "font_class": "jidongxingchagang4",
+      "unicode": "e7df",
+      "unicode_decimal": 59359
+    },
+    {
+      "icon_id": "25676901",
+      "name": "交警3",
+      "font_class": "jiaojing3",
+      "unicode": "e7e0",
+      "unicode_decimal": 59360
+    },
+    {
+      "icon_id": "25676902",
+      "name": "卡口58",
+      "font_class": "kakou58",
+      "unicode": "e7e1",
+      "unicode_decimal": 59361
+    },
+    {
+      "icon_id": "25676903",
+      "name": "交警18",
+      "font_class": "jiaojing18",
+      "unicode": "e7e2",
+      "unicode_decimal": 59362
+    },
+    {
+      "icon_id": "25676904",
+      "name": "卡口60",
+      "font_class": "kakou60",
+      "unicode": "e7e3",
+      "unicode_decimal": 59363
+    },
+    {
+      "icon_id": "25676905",
+      "name": "卡口59",
+      "font_class": "kakou59",
+      "unicode": "e7e4",
+      "unicode_decimal": 59364
+    },
+    {
+      "icon_id": "25676906",
+      "name": "验证点12",
+      "font_class": "yanzhengdian12",
+      "unicode": "e7e5",
+      "unicode_decimal": 59365
+    },
+    {
+      "icon_id": "25676907",
+      "name": "机动性查岗26",
+      "font_class": "jidongxingchagang26",
+      "unicode": "e7e6",
+      "unicode_decimal": 59366
+    },
+    {
+      "icon_id": "25676908",
+      "name": "验证点10",
+      "font_class": "yanzhengdian10",
+      "unicode": "e7e7",
+      "unicode_decimal": 59367
+    },
+    {
+      "icon_id": "25676909",
+      "name": "卡口70",
+      "font_class": "kakou70",
+      "unicode": "e7e8",
+      "unicode_decimal": 59368
+    },
+    {
+      "icon_id": "25676910",
+      "name": "卡口48",
+      "font_class": "kakou48",
+      "unicode": "e7e9",
+      "unicode_decimal": 59369
+    },
+    {
+      "icon_id": "25676911",
+      "name": "机动性查岗5",
+      "font_class": "jidongxingchagang5",
+      "unicode": "e7ea",
+      "unicode_decimal": 59370
+    },
+    {
+      "icon_id": "25676912",
+      "name": "机动性查岗24",
+      "font_class": "jidongxingchagang24",
+      "unicode": "e7eb",
+      "unicode_decimal": 59371
+    },
+    {
+      "icon_id": "25676913",
+      "name": "机动性查岗1",
+      "font_class": "jidongxingchagang1",
+      "unicode": "e7ec",
+      "unicode_decimal": 59372
+    },
+    {
+      "icon_id": "25676914",
+      "name": "机动性查岗23",
+      "font_class": "jidongxingchagang23",
+      "unicode": "e7ed",
+      "unicode_decimal": 59373
+    },
+    {
+      "icon_id": "25676915",
+      "name": "验证点4",
+      "font_class": "yanzhengdian4",
+      "unicode": "e7ee",
+      "unicode_decimal": 59374
+    },
+    {
+      "icon_id": "25676916",
+      "name": "交警19",
+      "font_class": "jiaojing19",
+      "unicode": "e7ef",
+      "unicode_decimal": 59375
+    },
+    {
+      "icon_id": "25676917",
+      "name": "交通岗位2",
+      "font_class": "jiaotonggangwei2",
+      "unicode": "e7f0",
+      "unicode_decimal": 59376
+    },
+    {
+      "icon_id": "25676918",
+      "name": "机动性查岗19",
+      "font_class": "jidongxingchagang19",
+      "unicode": "e7f1",
+      "unicode_decimal": 59377
+    },
+    {
+      "icon_id": "25676919",
+      "name": "机动性查岗22",
+      "font_class": "jidongxingchagang22",
+      "unicode": "e7f2",
+      "unicode_decimal": 59378
+    },
+    {
+      "icon_id": "25676920",
+      "name": "卡口16",
+      "font_class": "kakou16",
+      "unicode": "e7f3",
+      "unicode_decimal": 59379
+    },
+    {
+      "icon_id": "25676921",
+      "name": "机动性查岗27",
+      "font_class": "jidongxingchagang27",
+      "unicode": "e7f4",
+      "unicode_decimal": 59380
+    },
+    {
+      "icon_id": "25676922",
+      "name": "卡口67",
+      "font_class": "kakou67",
+      "unicode": "e7f5",
+      "unicode_decimal": 59381
+    },
+    {
+      "icon_id": "25676923",
+      "name": "机动性查岗25",
+      "font_class": "jidongxingchagang25",
+      "unicode": "e7f6",
+      "unicode_decimal": 59382
+    },
+    {
+      "icon_id": "25676924",
+      "name": "验证点13",
+      "font_class": "yanzhengdian13",
+      "unicode": "e7f7",
+      "unicode_decimal": 59383
+    },
+    {
+      "icon_id": "25676925",
+      "name": "机动性查岗2",
+      "font_class": "jidongxingchagang2",
+      "unicode": "e7f8",
+      "unicode_decimal": 59384
+    },
+    {
+      "icon_id": "25676926",
+      "name": "卡口61",
+      "font_class": "kakou61",
+      "unicode": "e7f9",
+      "unicode_decimal": 59385
+    },
+    {
+      "icon_id": "25676927",
+      "name": "机动性查岗7",
+      "font_class": "jidongxingchagang7",
+      "unicode": "e7fa",
+      "unicode_decimal": 59386
+    },
+    {
+      "icon_id": "25676928",
+      "name": "机动性查岗21",
+      "font_class": "jidongxingchagang21",
+      "unicode": "e7fb",
+      "unicode_decimal": 59387
+    },
+    {
+      "icon_id": "25676929",
+      "name": "验证点15",
+      "font_class": "yanzhengdian15",
+      "unicode": "e7fc",
+      "unicode_decimal": 59388
+    },
+    {
+      "icon_id": "25676930",
+      "name": "验证点29",
+      "font_class": "yanzhengdian29",
+      "unicode": "e7fd",
+      "unicode_decimal": 59389
+    },
+    {
+      "icon_id": "25676931",
+      "name": "验证点11",
+      "font_class": "yanzhengdian11",
+      "unicode": "e7fe",
+      "unicode_decimal": 59390
+    },
+    {
+      "icon_id": "25676932",
+      "name": "卡口49",
+      "font_class": "kakou49",
+      "unicode": "e7ff",
+      "unicode_decimal": 59391
+    },
+    {
+      "icon_id": "25676933",
+      "name": "卡口65",
+      "font_class": "kakou65",
+      "unicode": "e800",
+      "unicode_decimal": 59392
+    },
+    {
+      "icon_id": "25676934",
+      "name": "交通岗位4",
+      "font_class": "jiaotonggangwei4",
+      "unicode": "e801",
+      "unicode_decimal": 59393
+    },
+    {
+      "icon_id": "25676935",
+      "name": "卡口14",
+      "font_class": "kakou14",
+      "unicode": "e802",
+      "unicode_decimal": 59394
+    },
+    {
+      "icon_id": "25676936",
+      "name": "卡口8",
+      "font_class": "kakou8",
+      "unicode": "e803",
+      "unicode_decimal": 59395
+    },
+    {
+      "icon_id": "25676937",
+      "name": "卡口29",
+      "font_class": "kakou29",
+      "unicode": "e804",
+      "unicode_decimal": 59396
+    },
+    {
+      "icon_id": "25676938",
+      "name": "验证点7",
+      "font_class": "yanzhengdian7",
+      "unicode": "e805",
+      "unicode_decimal": 59397
+    },
+    {
+      "icon_id": "25676939",
+      "name": "卡口28",
+      "font_class": "kakou28",
+      "unicode": "e806",
+      "unicode_decimal": 59398
+    },
+    {
+      "icon_id": "25676940",
+      "name": "停车场9",
+      "font_class": "tingchechang9",
+      "unicode": "e807",
+      "unicode_decimal": 59399
+    },
+    {
+      "icon_id": "25676941",
+      "name": "交警1",
+      "font_class": "jiaojing1",
+      "unicode": "e808",
+      "unicode_decimal": 59400
+    },
+    {
+      "icon_id": "25676942",
+      "name": "交警5",
+      "font_class": "jiaojing5",
+      "unicode": "e809",
+      "unicode_decimal": 59401
+    },
+    {
+      "icon_id": "25676943",
+      "name": "验证点6",
+      "font_class": "yanzhengdian6",
+      "unicode": "e80a",
+      "unicode_decimal": 59402
+    },
+    {
+      "icon_id": "25676944",
+      "name": "卡口15",
+      "font_class": "kakou15",
+      "unicode": "e80b",
+      "unicode_decimal": 59403
+    },
+    {
+      "icon_id": "25676945",
+      "name": "交警23",
+      "font_class": "jiaojing23",
+      "unicode": "e80c",
+      "unicode_decimal": 59404
+    },
+    {
+      "icon_id": "25676946",
+      "name": "卡口11",
+      "font_class": "kakou11",
+      "unicode": "e80d",
+      "unicode_decimal": 59405
+    },
+    {
+      "icon_id": "25676947",
+      "name": "验证点3",
+      "font_class": "yanzhengdian3",
+      "unicode": "e80e",
+      "unicode_decimal": 59406
+    },
+    {
+      "icon_id": "25676948",
+      "name": "卡口39",
+      "font_class": "kakou39",
+      "unicode": "e80f",
+      "unicode_decimal": 59407
+    },
+    {
+      "icon_id": "25676949",
+      "name": "卡口38",
+      "font_class": "kakou38",
+      "unicode": "e810",
+      "unicode_decimal": 59408
+    },
+    {
+      "icon_id": "25676950",
+      "name": "验证点2",
+      "font_class": "yanzhengdian2",
+      "unicode": "e811",
+      "unicode_decimal": 59409
+    },
+    {
+      "icon_id": "25676951",
+      "name": "卡口10",
+      "font_class": "kakou10",
+      "unicode": "e812",
+      "unicode_decimal": 59410
+    },
+    {
+      "icon_id": "25676952",
+      "name": "交警4",
+      "font_class": "jiaojing4",
+      "unicode": "e813",
+      "unicode_decimal": 59411
+    },
+    {
+      "icon_id": "25676953",
+      "name": "交警6",
+      "font_class": "jiaojing6",
+      "unicode": "e814",
+      "unicode_decimal": 59412
+    },
+    {
+      "icon_id": "25676954",
+      "name": "停车场8",
+      "font_class": "tingchechang8",
+      "unicode": "e815",
+      "unicode_decimal": 59413
+    },
+    {
+      "icon_id": "25676955",
+      "name": "消防栓",
+      "font_class": "xiaofangshuan1",
+      "unicode": "e816",
+      "unicode_decimal": 59414
+    },
+    {
+      "icon_id": "25676956",
+      "name": "交警20",
+      "font_class": "jiaojing20",
+      "unicode": "e817",
+      "unicode_decimal": 59415
+    },
+    {
+      "icon_id": "25676957",
+      "name": "卡口12",
+      "font_class": "kakou12",
+      "unicode": "e818",
+      "unicode_decimal": 59416
+    },
+    {
+      "icon_id": "25676958",
+      "name": "出口",
+      "font_class": "chukou1",
+      "unicode": "e819",
+      "unicode_decimal": 59417
+    },
+    {
+      "icon_id": "25676959",
+      "name": "监控",
+      "font_class": "jiankong1",
+      "unicode": "e81a",
+      "unicode_decimal": 59418
+    },
+    {
+      "icon_id": "25676960",
+      "name": "卡口13",
+      "font_class": "kakou13",
+      "unicode": "e81b",
+      "unicode_decimal": 59419
+    },
+    {
+      "icon_id": "25676961",
+      "name": "验证点1",
+      "font_class": "yanzhengdian1",
+      "unicode": "e81c",
+      "unicode_decimal": 59420
+    },
+    {
+      "icon_id": "25676962",
+      "name": "交警21",
+      "font_class": "jiaojing21",
+      "unicode": "e81d",
+      "unicode_decimal": 59421
+    },
+    {
+      "icon_id": "25676963",
+      "name": "交警7",
+      "font_class": "jiaojing7",
+      "unicode": "e81e",
+      "unicode_decimal": 59422
+    },
+    {
+      "icon_id": "25676964",
+      "name": "停车场6",
+      "font_class": "tingchechang6",
+      "unicode": "e81f",
+      "unicode_decimal": 59423
+    },
+    {
+      "icon_id": "25676965",
+      "name": "卡口22",
+      "font_class": "kakou22",
+      "unicode": "e820",
+      "unicode_decimal": 59424
+    },
+    {
+      "icon_id": "25676966",
+      "name": "交警10",
+      "font_class": "jiaojing10",
+      "unicode": "e821",
+      "unicode_decimal": 59425
+    },
+    {
+      "icon_id": "25676967",
+      "name": "交警22",
+      "font_class": "jiaojing22",
+      "unicode": "e822",
+      "unicode_decimal": 59426
+    },
+    {
+      "icon_id": "25676968",
+      "name": "卡口36",
+      "font_class": "kakou36",
+      "unicode": "e823",
+      "unicode_decimal": 59427
+    },
+    {
+      "icon_id": "25676969",
+      "name": "人脸识别",
+      "font_class": "renlianshibie1",
+      "unicode": "e824",
+      "unicode_decimal": 59428
+    },
+    {
+      "icon_id": "25676970",
+      "name": "卡口23",
+      "font_class": "kakou23",
+      "unicode": "e825",
+      "unicode_decimal": 59429
+    },
+    {
+      "icon_id": "25676971",
+      "name": "卡口37",
+      "font_class": "kakou37",
+      "unicode": "e826",
+      "unicode_decimal": 59430
+    },
+    {
+      "icon_id": "25676972",
+      "name": "交警11",
+      "font_class": "jiaojing11",
+      "unicode": "e827",
+      "unicode_decimal": 59431
+    },
+    {
+      "icon_id": "25676973",
+      "name": "安检点4",
+      "font_class": "anjiandian4",
+      "unicode": "e828",
+      "unicode_decimal": 59432
+    },
+    {
+      "icon_id": "25676974",
+      "name": "无人机反制",
+      "font_class": "wurenjifanzhi1",
+      "unicode": "e829",
+      "unicode_decimal": 59433
+    },
+    {
+      "icon_id": "25676975",
+      "name": "停车场7",
+      "font_class": "tingchechang7",
+      "unicode": "e82a",
+      "unicode_decimal": 59434
+    },
+    {
+      "icon_id": "25676976",
+      "name": "应急备勤",
+      "font_class": "yingjibeiqin1",
+      "unicode": "e82b",
+      "unicode_decimal": 59435
+    },
+    {
+      "icon_id": "25676977",
+      "name": "交警9",
+      "font_class": "jiaojing9",
+      "unicode": "e82c",
+      "unicode_decimal": 59436
+    },
+    {
+      "icon_id": "25676978",
+      "name": "停车场5",
+      "font_class": "tingchechang5",
+      "unicode": "e82d",
+      "unicode_decimal": 59437
+    },
+    {
+      "icon_id": "25676979",
+      "name": "交警13",
+      "font_class": "jiaojing13",
+      "unicode": "e82e",
+      "unicode_decimal": 59438
+    },
+    {
+      "icon_id": "25676980",
+      "name": "卡口21",
+      "font_class": "kakou21",
+      "unicode": "e82f",
+      "unicode_decimal": 59439
+    },
+    {
+      "icon_id": "25676981",
+      "name": "卡口20",
+      "font_class": "kakou20",
+      "unicode": "e830",
+      "unicode_decimal": 59440
+    },
+    {
+      "icon_id": "25676982",
+      "name": "全球摄像头",
+      "font_class": "quanqiushexiangtou1",
+      "unicode": "e831",
+      "unicode_decimal": 59441
+    },
+    {
+      "icon_id": "25676983",
+      "name": "卡口34",
+      "font_class": "kakou34",
+      "unicode": "e832",
+      "unicode_decimal": 59442
+    },
+    {
+      "icon_id": "25675475",
+      "name": "机动性查岗",
+      "font_class": "jidongxingchagang",
+      "unicode": "e7b2",
+      "unicode_decimal": 59314
+    },
+    {
+      "icon_id": "25675476",
+      "name": "全球摄像头",
+      "font_class": "quanqiushexiangtou",
+      "unicode": "e7b5",
+      "unicode_decimal": 59317
+    },
+    {
+      "icon_id": "25675477",
+      "name": "井盖位移预警",
+      "font_class": "jinggaiweiyiyujing",
+      "unicode": "e7b6",
+      "unicode_decimal": 59318
+    },
+    {
+      "icon_id": "25675478",
+      "name": "人脸识别",
+      "font_class": "renlianshibie",
+      "unicode": "e7b7",
+      "unicode_decimal": 59319
+    },
+    {
+      "icon_id": "25675479",
+      "name": "停车场",
+      "font_class": "tingchechang",
+      "unicode": "e7b8",
+      "unicode_decimal": 59320
+    },
+    {
+      "icon_id": "25675480",
+      "name": "配电间",
+      "font_class": "peidianjian",
+      "unicode": "e7b9",
+      "unicode_decimal": 59321
+    },
+    {
+      "icon_id": "25675481",
+      "name": "违禁品",
+      "font_class": "weijinpin",
+      "unicode": "e7ba",
+      "unicode_decimal": 59322
+    },
+    {
+      "icon_id": "25675482",
+      "name": "执勤警力",
+      "font_class": "zhiqinjingli",
+      "unicode": "e7bb",
+      "unicode_decimal": 59323
+    },
+    {
+      "icon_id": "25675483",
+      "name": "指挥部",
+      "font_class": "zhihuibu",
+      "unicode": "e7bc",
+      "unicode_decimal": 59324
+    },
+    {
+      "icon_id": "25675484",
+      "name": "验证点",
+      "font_class": "yanzhengdian",
+      "unicode": "e7bd",
+      "unicode_decimal": 59325
+    },
+    {
+      "icon_id": "25675485",
+      "name": "应急备勤",
+      "font_class": "yingjibeiqin",
+      "unicode": "e7be",
+      "unicode_decimal": 59326
+    },
+    {
+      "icon_id": "25675486",
+      "name": "交通卡口",
+      "font_class": "jiaotongkakou",
+      "unicode": "e7bf",
+      "unicode_decimal": 59327
+    },
+    {
+      "icon_id": "25675487",
+      "name": "执勤车辆",
+      "font_class": "zhiqincheliang",
+      "unicode": "e7c0",
+      "unicode_decimal": 59328
+    },
+    {
+      "icon_id": "25675488",
+      "name": "人脸识别预警",
+      "font_class": "renlianshibieyujing",
+      "unicode": "e7c1",
+      "unicode_decimal": 59329
+    },
+    {
+      "icon_id": "25675489",
+      "name": "交警岗位",
+      "font_class": "jiaojinggangwei",
+      "unicode": "e7c2",
+      "unicode_decimal": 59330
+    },
+    {
+      "icon_id": "25675490",
+      "name": "消防栓",
+      "font_class": "xiaofangshuan",
+      "unicode": "e7c3",
+      "unicode_decimal": 59331
+    },
+    {
+      "icon_id": "25675491",
+      "name": "物品安检预警",
+      "font_class": "wupinanjianyujing",
+      "unicode": "e7c4",
+      "unicode_decimal": 59332
+    },
+    {
+      "icon_id": "25675492",
+      "name": "过包",
+      "font_class": "guobao",
+      "unicode": "e7c5",
+      "unicode_decimal": 59333
+    },
+    {
+      "icon_id": "25675493",
+      "name": "治安处置点",
+      "font_class": "zhianchuzhidian",
+      "unicode": "e7c6",
+      "unicode_decimal": 59334
+    },
+    {
+      "icon_id": "25675494",
+      "name": "无人机反制",
+      "font_class": "wurenjifanzhi",
+      "unicode": "e7c7",
+      "unicode_decimal": 59335
+    },
+    {
+      "icon_id": "25675495",
+      "name": "注册办公室",
+      "font_class": "zhucebangongshi",
+      "unicode": "e7c8",
+      "unicode_decimal": 59336
+    },
+    {
+      "icon_id": "25675463",
+      "name": "安检点",
+      "font_class": "anjiandian",
+      "unicode": "e7a9",
+      "unicode_decimal": 59305
+    },
+    {
+      "icon_id": "25675464",
+      "name": "半球摄像头",
+      "font_class": "banqiushexiangtou",
+      "unicode": "e7aa",
+      "unicode_decimal": 59306
+    },
+    {
+      "icon_id": "25675465",
+      "name": "车辆",
+      "font_class": "cheliang",
+      "unicode": "e7ab",
+      "unicode_decimal": 59307
+    },
+    {
+      "icon_id": "25675466",
+      "name": "监控",
+      "font_class": "jiankong",
+      "unicode": "e7ac",
+      "unicode_decimal": 59308
+    },
+    {
+      "icon_id": "25675467",
+      "name": "出口",
+      "font_class": "chukou",
+      "unicode": "e7ad",
+      "unicode_decimal": 59309
+    },
+    {
+      "icon_id": "25675468",
+      "name": "场馆内部重点区域预警",
+      "font_class": "changguanneibuzhongdianquyuyujing",
+      "unicode": "e7ae",
+      "unicode_decimal": 59310
+    },
+    {
+      "icon_id": "25675469",
+      "name": "卡口",
+      "font_class": "kakou",
+      "unicode": "e7af",
+      "unicode_decimal": 59311
+    },
+    {
+      "icon_id": "25675470",
+      "name": "检查站",
+      "font_class": "jianchazhan",
+      "unicode": "e7b0",
+      "unicode_decimal": 59312
+    },
+    {
+      "icon_id": "25675471",
+      "name": "违禁包裹",
+      "font_class": "weijinbaoguo",
+      "unicode": "e7b1",
+      "unicode_decimal": 59313
+    },
+    {
+      "icon_id": "25675473",
+      "name": "穿越护栏预警",
+      "font_class": "chuanyuehulanyujing",
+      "unicode": "e7b3",
+      "unicode_decimal": 59315
+    },
+    {
+      "icon_id": "25675474",
+      "name": "车辆预警",
+      "font_class": "cheliangyujing",
+      "unicode": "e7b4",
+      "unicode_decimal": 59316
+    }
+  ]
+}
